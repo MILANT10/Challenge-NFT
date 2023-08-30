@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"); /*Google Font import*/
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+:root {
+  --softBlue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  /*Neutral*/
+  --veryDarkBlueBack: hsl(217, 54%, 11%);
+  --veryDarkBlueCard: hsl(216, 50%, 16%);
+  --veryDarkBlueLine: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --size: 18px;
+}
+
+/*Mobile First*/
+
+html{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: var(--veryDarkBlueBack);
+    padding: 0%;
+    margin: 0%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.Main_box{
+    
+}
